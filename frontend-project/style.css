@@ -26,9 +26,12 @@ div.container-mask {
     justify-content: space-around;
 }
 
-img.logo {
-    height: 12vh;
-    width: 12vw;
+.restoran-name {
+    font-family: 'Pacifico', cursive;
+    font-size: 3rem;
+    color: #FEA116; /* Golden-yellow color */
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5); /* Add a subtle shadow */
+    letter-spacing: 0.1em; /* Slight letter spacing for a modern look */
 }
 
 .nav-bar ul {
@@ -77,6 +80,7 @@ button.reserve-table-button:hover {
     background-color: #F1F8FF;
     font-weight: 500;
 }
+
 
 /*
     hero-unit css starts here
